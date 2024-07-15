@@ -5,49 +5,49 @@
 <img src="https://img.icons8.com/color/75/000000/console.png" width="75" height="75" alt="Bash" style="margin: 10px 15px 0 15px;" />
 </p>
 
-- **Bash:** Usado para criar um script que funciona como um adivinho.
+- **Bash:** Used for scripting to create a fortune teller.
 
-## Descrição
+## Description
 
-Este projeto é um simples "Fortune Teller" projetado para responder a perguntas de sim ou não. Ele inclui funcionalidades para gerar uma resposta aleatória através de uma interface de script Bash.
+This project is a simple "Fortune Teller" designed to answer yes or no questions. It includes functionalities for generating a random response through a Bash script interface.
 
-## Estrutura do Projeto
+## Project Structure
 
-### Script Shell Bash
+### Bash Shell Script
 
-O script `fortune.sh` serve como a interface de linha de comando para iniciar o adivinho. As principais funcionalidades incluem:
+The `fortune.sh` script serves as the command-line interface to start the fortune teller. Key functionalities include:
 
-- Aceitar uma pergunta como entrada.
-- Gerar uma resposta aleatória.
+- Accepting a question as input.
+- Generating a random response.
 
-#### Benefícios do Uso do Bash
+#### Benefits of Using Bash
 
-- **Facilidade de Uso:** Utiliza interfaces de linha de comando familiares para rápida criação do adivinho.
-- **Portabilidade:** Os scripts Bash podem ser executados em qualquer sistema baseado em Unix sem a necessidade de qualquer software adicional.
+- **Ease of Use:** Utilizes familiar command-line interfaces for quick fortune teller creation.
+- **Portability:** Bash scripts can be run on any Unix-based system without requiring any additional software.
 
-## Como Usar
+## How to Use
 
-### Executando o Script Bash
+### Running the Bash Script
 
-1. **Conceder Permissão de Execução**: Certifique-se de que o script tem permissões de execução:
+1. **Grant Execution Permission**: Ensure the script has executable permissions:
    ```bash
    chmod +x fortune.sh
    ```
 
-2. **Executar o Script**: Inicie o adivinho executando o script:
+2. **Execute the Script**: Start the fortune teller by running the script:
    ```bash
    ./fortune.sh
    ```
 
-### Navegação dentro do Script
+### Navigation within the Script
 
-- **Menu Principal**:
-  - O script automaticamente solicita uma pergunta quando é executado.
+- **Main Menu**:
+  - The script automatically prompts for a question when run.
 
 ---
-#### Este é um projeto divertido para aprender a programar em Bash
+#### This is a fun project for learning Bash scripting
 ---
-#### Este é um desafio do FreeCodeCamp para a certificação em Relational Database Projects
+#### This is a FreeCodeCamp Challenge for Relational Database Projects Certification
 
 <p align="center">
 <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="250" height="75" alt="freeCodeCamp" style="margin: 0 15px; opacity: 0.6" />
